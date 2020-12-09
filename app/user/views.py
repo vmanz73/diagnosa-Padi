@@ -3,4 +3,4 @@ from django.shortcuts import HttpResponse
 # Create your views here.
 
 def user(request):
-    return HttpResponse("<h1>test</h1>")
+    return render(request,'base.html')
